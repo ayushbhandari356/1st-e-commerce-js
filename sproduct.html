@@ -1,25 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css" class="">
+</head>
 
-        <link rel="stylesheet" href="style.css">
-    </head>
+<body>
+    <section id="header">
+        <a href="#"><img width="120px" height="50px" src="img/logo.png" alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"> <img src="svg/shopping_bag.svg" alt="" id="lg-bag"></a></li>
+                <img src="svg/ham-close.svg" alt="" id="ham-close" > 
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"> <img src="svg/shopping_bag.svg" alt="" id=""></a>
+            <img src="svg/hamburgur.svg" alt="" id="hamburgur">
+        </div>
+    </section>
 
-    <body>
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="img/products/f1.jpg" width="100%" id="Mainimg"  alt="" class="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="img/products/f1.jpg" width="100%" alt="" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="img/products/f2.jpg" width="100%" alt="" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="img/products/f3.jpg" width="100%" alt="" class="small-img">
+            </div>
+            <div class="small-img-col">
+                <img src="img/products/f4.jpg" width="100%" alt="" class="small-img">
+            </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Home / T-Shirts</h6>
+        <h4>Men's Fashion T-Shirts</h4>
+        <h2>$100</h2>
+        <select>
+            <option>Select Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>XXXL</option>
+        </select>
+        <input type="number"value="1" class="">
+        <button>Add To Cart</button>
+        <h4>Products Details</h4>
+        <span>A 100% cotton T-shirt is a classic wardrobe staple, prized for its comfort and breathability. Crafted entirely from natural fibers, it offers a soft feel against the skin and excellent moisture absorption, making it ideal for casual wear. Its versatility, durability, and easy care make it a timeless choice, ensuring a comfortable and stylish experience in various settings.</span>
+    </div>
+  </section>
 
+    <section id="footbanner">
+        <h3>An exciting place for the whole family to shop.</h3>
+    </section>
 
-        <script>
-            // script for image change on click
-        </script>
+    <footer class="section-p1">
+        <div class="col">
+            <!-- <img src="img/logo.png" alt="" class=""> -->
+            <h4>Contact</h4>
+            <P><strong>Address :</strong>Rohini Sector 6 , New Delhi </P>
+            <p><strong>Phone :</strong>91+8974563214</p>
+            <p><strong>Time :</strong>8:00AM To 8:00PM Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#" class=""><img src="svg/facebook.svg" alt="" class=""></a>
+                    <a href="" class=""><img src="svg/twitter.svg" alt="" class=""></a>
+                    <a href="" class=""><img src="svg/instagram.svg" alt="" class=""></a>
+                    <a href="" class=""><img src="svg/youtube.svg" alt="" class=""></a>
+                    <a href="" class=""><img src="svg/pintrest.svg" alt="" class=""></a>
+                </div>
+            </div>
+        </div>
 
+        <div class="col">
+            <h4>About</h4>
+            <a href="#" class="">About Us</a>
+            <a href="#" class="">Delivery Information</a>
+            <a href="#" class="">Privacy Policy</a>
+            <a href="#" class="">Terms And Conditions</a>
+            <a href="#" class="">Contact Us</a>
+        </div>
 
-        <script src="script.js"></script>
-    </body>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#" class="">Sign In</a>
+            <a href="#" class="">View Cart</a>
+            <a href="#" class="">My Wishlist</a>
+            <a href="#" class="">Track My Orders</a>
+            <a href="#" class="">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install Apps</h4>
+            <p>From Google Play Store OR App Store</p>
+            <div class="row">
+                <img src="img/pay/play.jpg" alt="" class="">
+                <img src="img/pay/app.jpg" alt="" class="">
+            </div>
+            <div class="">
+                <p>Secured Payment Gateway</p>
+                <img src="img/pay/pay.png" alt="" class="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@ 2023 , LEXO PREMIUM - Eommerce Website</p>
+        </div>
+        
+    </footer>
+    <script type="module" src="script.js"></script>
+</body>
 
 </html>
