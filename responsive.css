@@ -196,4 +196,71 @@
         width: 100%;
         text-align: start;
     }
+
+
+/* shop page */
+    /* single product */
+    #prodetails{
+        flex-direction: column;
+        
+    }
+    #prodetails .single-pro-image {
+        width: 100%;
+        
+    }
+    #prodetails .single-pro-details {
+         
+        width: 100%;
+    }
+
+
+    /* about page */
+    #about-head {
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+    }
+    #about-head img {
+        width: 100%;
+        height:auto;
+        margin-bottom: 20px;
+    }
+    #about-app .video {
+        width: 100%;
+     
+    }
+
+    /* contact page */
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    #contact-details .map {
+        width: 100%;
+        
+    }
+    /* cart */
+    #cart-add {
+      
+        flex-direction: column;
+       
+    }
+    #coupon{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #subtotal {
+        width: 50%;
+        margin-bottom: 30px;
+        border: 1px solid rgb(175, 174, 174);
+        padding: 10px;
+    }
+    #subtotal {
+        width: 100%;
+       
+    }
+
 }
